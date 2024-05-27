@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+button {
+  padding: 10px 20px;
+  background-color: hsl(184, 46%, 54%);
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: hsl(214, 68%, 59%);
+}
