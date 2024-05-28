@@ -10,14 +10,17 @@
     <div class="container">
       <h1>Rock Paper Scissors</h1>
       <div class="choices">
-        <button class="choice" onclick="play('rock')">Rock</button>
-        <button class="choice" onclick="play('paper')">Paper</button>
-        <button class="choice" onclick="play('scissors')">Scissors</button>
+        <button class="choice" onclick="getHumanChoice('rock')">Rock</button>
+        <button class="choice" onclick="getHumanChoice('paper')">Paper</button>
+        <button class="choice" onclick="getHumanChoice('scissors')">
+          Scissors
+        </button>
       </div>
       <div class="results">
         <p id="user-choice">You chose:</p>
         <p id="computer-choice">Computer chose:</p>
-        <p id="result"></p>
+        <p id="result">The result is:</p>
+        <p id="scores">The final scores are:</p>
       </div>
     </div>
     <script src="main.js"></script>
